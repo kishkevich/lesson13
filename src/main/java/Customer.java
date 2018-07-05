@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Customer {
-    List<Products> productsList = new ArrayList<>();
+    List<Products> productsList = new ArrayList<Products>();
 
     public Customer customerProductsAdd(Products products){
         productsList.add(products);
